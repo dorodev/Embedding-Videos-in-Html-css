@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+body{
+    font-family:sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    background:#f9f9f9 ;
+}
+
+.searchbar{
+ align-items:center ;
+ justify-content: space-around;
+ top:0;
+ border-bottom:1px solid #e4e4e4;
+ background:#fff;
+ height: 70px;
+ position: sticky;
+ display: flex;
+}
+
+.logo img{
+    width:70px;
+    margin-left:-150px;
+}
+
+.search-box{
+    display: flex;
+    width: auto;
+    align-items:center ;
+}
+
+#search{
+    width: 600px;
+    height:35px;
+    border:1px solid #ccc;
+    outline: none;
+    margin-left: -70px;
+
+
+}
+
+.search-box button {
+    width:60px;
+    height: 35px;
+    border:solid 1px #ccc ;
+    border-left-style: none;
+}
+
+.search-box button.fas{
+    color: #333;
+}
+.search-box input[type="text"]{
+    width:500px;
+    height:30px;
+    padding:1px 2px;
+}
+
+search button{
+    padding:1px 6px;
+}
+
+.icons{
+    display:flex;
+    width:20%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.icons,.fas{
+    color:#7f7f7f;
+    font-size: 20px;
+}
+
+.video-container{
+    margin-top:27px;
+    margin-left:80px;
+}
+.video-title{
+    margin-top: 27px;
+    margin-left: 80px;
+    color: #333232;
+    font-style:normal ;
+    border-bottom: solid 1px #ccc;
+    width:990px;
+}
+
+#views{
+    padding-top: 30px;
+    font-size: 14px;
+    padding-bottom: 10px;
+    font-weight: normal;
+}
+
+#reactions{
+    display:flex;
+    width:35%;
+    justify-content: space-evenly;
+    align-items:center;
+    margin-left: 650px;
+    font-size: 16px;
+    color:#909090;
+    margin-bottom: 1px;
+}
+
+    #likes,
+    #dislike{
+        text-decoration: underline;
+
+    }
+
+    .video-description{
+        margin-top:20px ;
+        margin-left: 80px;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 30px;
+    }
+
+    #user-profile{
+        border: 50%;
+        width: 60px;
+        margin-left: 20px;
+    }
+
+    #profile-name{
+        margin-left: -35px;
+        margin-top: 10px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    #comment{
+        margin-left:70px;
+        border: none;
+        border-bottom: 1px solid#ccc;
+        widows: 930px;
+        height: 40px;
+        font-size: 16px;
+    }
+
+    .thumbnails{
+        margin-left: 1200px;
+        margin-top: -1012px;
+
+    }
+
+    #autoplay{
+        margin-right:-160px;
+        
+    }
+
+    #toggle{
+        margin-right:80px;
+
+    }
+
+    #thumbnail-views{
+        font-size: 14px;
+        margin-left:10px;
+        margin-top: 1px;
+        position: absolute;
+        padding-top: 110px;
+        color:#7f7f7f;
+    }
+
+
+
+
+
